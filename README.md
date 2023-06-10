@@ -51,20 +51,21 @@ python main.py
 ## Usage
 After running this project, you can use the ThingsBoard REST API to create entities and devices, set up relationships, and retrieve the list of entities. You can perform the desired operations by editing the sample code block in the read_data.py file or removing the comment lines.  Here are the operations included in the code:
 This is a Python script for managing IoT devices and retrieving data using the REST API of the ThingsBoard platform. Its functions are as follows:
-1. Imported libraries and REST client class are defined.
-2. Configure logging for logging.
-3. Define required information such as ThingsBoard REST API URL, username and password.
-4. The REST client object is created and used with a context manager for an automatic token refresh.
-5. Login with the specified credentials.
-6. The following operations are performed in the sample code block in the comment lines:
-    a. An asset is created and registered.
-    b. A device is created and registered.
-    c. A relationship is established between the device and the asset.
-    d. The created entity, device and relationship information is logged.
+- Imported libraries and REST client class are defined.
+- Configure logging for logging.
+- Define required information such as ThingsBoard REST API URL, username and password.
+- The REST client object is created and used with a context manager for an automatic token refresh.
+- Login with the specified credentials.
+- The following operations are performed in the sample code block in the comment lines:
+    - An asset is created and registered.
+    - A device is created and registered.
+    - A relationship is established between the device and the asset.
+    - The created entity, device and relationship information is logged.
     (This code block is disabled with comment lines).
-7. Retrieves asset types and creates an asset list.
-8. Scrolls through the entity list and prints the name of each entity on the screen.
-9. Logs an error when an ApiException occurs.
+- Retrieves asset types and creates an asset list.
+- Scrolls through the entity list and prints the name of each entity on the screen.
+- Logs an error when an ApiException occurs.
+
 This code uses the ThingsBoard REST API to create entities and devices, establish relationships and retrieve the list of entities. The code snippet is disabled with comment lines, so the sample operations will not occur. You can enable these operations by editing the relevant sections or removing the comment lines.
 
 ## Contribution
