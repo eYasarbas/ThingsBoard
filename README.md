@@ -25,29 +25,27 @@ To run this project you need to meet the following prerequisites:
 #### Installation
 
 1. Clone the GitHub repository to get a copy of this project:
-''' git
+```bash
 git clone https://github.com/eYasarbas/ThingsBoard.git
-'''
+```
 2. Proje dizinine gidin:
-''' git
+```bash
 cd ThingsBoard
-"""
+```
 3. requirements.txt dosyasındaki bağımlılıkları yüklemek için aşağıdaki komutu çalıştırın:
-''' git 
+```bash
 pip install -r requirements.txt
-'''
+```
 4. read_data.py dosyasını düzenleyin ve aşağıdaki değişkenleri ayarlayın:
-''' git 
+```bash
 url = "http://your-thingsboard-url"
 username = "your-username"
 password = "your-password"
-
-'''
+```
 5. Düzenlemeyi kaydedin ve projeyi çalıştırmak için aşağıdaki komutu çalıştırın:
-''' git
+```bash
 python main.py
-
-'''
+```
 ## Usage
 After running this project, you can use the ThingsBoard REST API to create entities and devices, set up relationships, and retrieve the list of entities. You can perform the desired operations by editing the sample code block in the read_data.py file or removing the comment lines.  Here are the operations included in the code:
 This is a Python script for managing IoT devices and retrieving data using the REST API of the ThingsBoard platform. Its functions are as follows:
